@@ -1,0 +1,94 @@
+
+
+body { 
+  font-family: 'Space Mono', monospace; 
+  display: flex;
+  flex-direction: column;
+  max-width: 420px;
+  padding: 32px ;
+  margin: 60px  auto ;
+  border: 1px solid #eee;
+  box-shadow: 0px 12px 24px rgba(0, 0, 0, 0.06);
+}
+
+
+
+ol { padding-left: 50px; }
+li { 
+  color: #4f4f4f; 
+  padding-left: 16px;
+  margin-top: 24px;
+  position: relative;
+  font-size: 20px;
+  line-height: 20px;
+  height: auto;
+
+}
+
+strong { color: #292929; }
+
+.navbar {
+  text-align: center;
+  font-size: 20px;
+}
+
+a{
+  color: #292929;
+}
+
+.container {
+  position: absolute;
+  width: 1257px;
+  height: 797px;
+  left: 91px;
+  top: 113px;
+
+  background: #ffffff;
+  box-shadow: 0px 0px 10px 13px rgba(0, 0, 0, 0.14);
+}
+
+.images {
+  position: absolute;
+  width: 90%;
+  height: auto;
+  border-radius: 278.5px;
+  align-items: center;
+  line-height: 100px;
+  color: #4f4f4f; 
+  padding-left: 16px;
+  margin-top: 24px;
+  position: relative;
+  font-size: 20px;
+  line-height: 20px;
+  height: auto;
+}
+
+
+.heading {
+  text-align: center;
+  display: flex;
+  position: absolute;
+  width: 426px;
+  height: 80px;
+  left: 456px;
+  top: 339px;
+  
+  font-family: 'IM FELL Double Pica';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 45px;
+  line-height: 64px;
+  /* identical to box height */
+  
+  
+  color: #000000;
+}
+
+.times {
+  display: flex;
+}
+
+.ingredients {
+  font-size: small;
+  padding-left: 0px;
+}
